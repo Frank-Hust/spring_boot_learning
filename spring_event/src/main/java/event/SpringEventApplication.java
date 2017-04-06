@@ -1,12 +1,12 @@
-package com.kafka;
+package event;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KafkaApplication {
+public class SpringEventApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KafkaApplication.class, args);
+		SpringApplication.run(SpringEventApplication.class, args);
 	}
 }
