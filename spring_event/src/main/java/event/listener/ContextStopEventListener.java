@@ -8,6 +8,9 @@ import org.springframework.stereotype.Component;
 
 /**
  * Created by haoyifen on 2017/3/21  15:31.
+ * ContextStopEventListener演示. 没有调用, 暂时还不清楚怎么用
+ * 请考虑使用ContextCloseEventListener
+ * @see ContextCloseEventListener
  */
 //正常关闭时不会调用
 @Component
